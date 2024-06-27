@@ -19,54 +19,6 @@ Antes de mergulhar de cabeça na integração, é necessário instalar a bibliot
 !poetry add powerbiclient
 ```
 
-    Using version [39;1m^3.1.1[39;22m for [36mpowerbiclient[39m
-    
-    [34mUpdating dependencies[39m
-    [2K[34mResolving dependencies...[39m [39;2m(1.2s)[39;22m[34mResolving dependencies...[39m [39;2m(0.6s)[39;22m[34mResolving dependencies...[39m [39;2m(0.8s)[39;22m
-    
-    [39;1mPackage operations[39;22m: [34m7[39m installs, [34m0[39m updates, [34m0[39m removals
-    
-      [34;1m•[39;22m [39mInstalling [39m[36mcryptography[39m[39m ([39m[39;1m42.0.8[39;22m[39m)[39m: [34mPending...[39m
-    [1A[0J  [34;1m•[39;22m [39mInstalling [39m[36mcryptography[39m[39m ([39m[39;1m42.0.8[39;22m[39m)[39m: [34mInstalling...[39m
-    [1A[0J  [32;1m•[39;22m [39mInstalling [39m[36mcryptography[39m[39m ([39m[32m42.0.8[39m[39m)[39m
-      [34;1m•[39;22m [39mInstalling [39m[36mpy4j[39m[39m ([39m[39;1m0.10.9.7[39;22m[39m)[39m: [34mPending...[39m
-      [34;1m•[39;22m [39mInstalling [39m[36mpyjwt[39m[39m ([39m[39;1m2.8.0[39;22m[39m)[39m: [34mPending...[39m
-    [2A[0J  [34;1m•[39;22m [39mInstalling [39m[36mpyjwt[39m[39m ([39m[39;1m2.8.0[39;22m[39m)[39m: [34mPending...[39m
-    [1A[0J  [34;1m•[39;22m [39mInstalling [39m[36mpy4j[39m[39m ([39m[39;1m0.10.9.7[39;22m[39m)[39m: [34mInstalling...[39m
-      [34;1m•[39;22m [39mInstalling [39m[36mpyjwt[39m[39m ([39m[39;1m2.8.0[39;22m[39m)[39m: [34mPending...[39m
-    [2A[0J  [34;1m•[39;22m [39mInstalling [39m[36mpyjwt[39m[39m ([39m[39;1m2.8.0[39;22m[39m)[39m: [34mPending...[39m
-    [1A[0J  [32;1m•[39;22m [39mInstalling [39m[36mpy4j[39m[39m ([39m[32m0.10.9.7[39m[39m)[39m
-      [34;1m•[39;22m [39mInstalling [39m[36mpyjwt[39m[39m ([39m[39;1m2.8.0[39;22m[39m)[39m: [34mPending...[39m
-    [1A[0J  [34;1m•[39;22m [39mInstalling [39m[36mpyjwt[39m[39m ([39m[39;1m2.8.0[39;22m[39m)[39m: [34mInstalling...[39m
-    [1A[0J  [32;1m•[39;22m [39mInstalling [39m[36mpyjwt[39m[39m ([39m[32m2.8.0[39m[39m)[39m
-      [34;1m•[39;22m [39mInstalling [39m[36mjupyter-ui-poll[39m[39m ([39m[39;1m1.0.0[39;22m[39m)[39m: [34mPending...[39m
-      [34;1m•[39;22m [39mInstalling [39m[36mmsal[39m[39m ([39m[39;1m1.29.0[39;22m[39m)[39m: [34mPending...[39m
-      [34;1m•[39;22m [39mInstalling [39m[36mpyspark[39m[39m ([39m[39;1m3.5.1[39;22m[39m)[39m: [34mPending...[39m
-    [2A[0J  [34;1m•[39;22m [39mInstalling [39m[36mpyspark[39m[39m ([39m[39;1m3.5.1[39;22m[39m)[39m: [34mPending...[39m
-    [1A[0J  [34;1m•[39;22m [39mInstalling [39m[36mmsal[39m[39m ([39m[39;1m1.29.0[39;22m[39m)[39m: [34mInstalling...[39m
-      [34;1m•[39;22m [39mInstalling [39m[36mpyspark[39m[39m ([39m[39;1m3.5.1[39;22m[39m)[39m: [34mPending...[39m
-    [2A[0J  [34;1m•[39;22m [39mInstalling [39m[36mpyspark[39m[39m ([39m[39;1m3.5.1[39;22m[39m)[39m: [34mPending...[39m
-    [1A[0J  [32;1m•[39;22m [39mInstalling [39m[36mmsal[39m[39m ([39m[32m1.29.0[39m[39m)[39m
-      [34;1m•[39;22m [39mInstalling [39m[36mpyspark[39m[39m ([39m[39;1m3.5.1[39;22m[39m)[39m: [34mPending...[39m
-    [3A[0J  [32;1m•[39;22m [39mInstalling [39m[36mmsal[39m[39m ([39m[32m1.29.0[39m[39m)[39m
-      [34;1m•[39;22m [39mInstalling [39m[36mpyspark[39m[39m ([39m[39;1m3.5.1[39;22m[39m)[39m: [34mPending...[39m
-    [2A[0J  [34;1m•[39;22m [39mInstalling [39m[36mjupyter-ui-poll[39m[39m ([39m[39;1m1.0.0[39;22m[39m)[39m: [34mInstalling...[39m
-      [32;1m•[39;22m [39mInstalling [39m[36mmsal[39m[39m ([39m[32m1.29.0[39m[39m)[39m
-      [34;1m•[39;22m [39mInstalling [39m[36mpyspark[39m[39m ([39m[39;1m3.5.1[39;22m[39m)[39m: [34mPending...[39m
-    [3A[0J  [32;1m•[39;22m [39mInstalling [39m[36mmsal[39m[39m ([39m[32m1.29.0[39m[39m)[39m
-      [34;1m•[39;22m [39mInstalling [39m[36mpyspark[39m[39m ([39m[39;1m3.5.1[39;22m[39m)[39m: [34mPending...[39m
-    [2A[0J  [32;1m•[39;22m [39mInstalling [39m[36mjupyter-ui-poll[39m[39m ([39m[32m1.0.0[39m[39m)[39m
-      [32;1m•[39;22m [39mInstalling [39m[36mmsal[39m[39m ([39m[32m1.29.0[39m[39m)[39m
-      [34;1m•[39;22m [39mInstalling [39m[36mpyspark[39m[39m ([39m[39;1m3.5.1[39;22m[39m)[39m: [34mPending...[39m
-    [1A[0J  [34;1m•[39;22m [39mInstalling [39m[36mpyspark[39m[39m ([39m[39;1m3.5.1[39;22m[39m)[39m: [34mInstalling...[39m
-    [1A[0J  [32;1m•[39;22m [39mInstalling [39m[36mpyspark[39m[39m ([39m[32m3.5.1[39m[39m)[39m
-      [34;1m•[39;22m [39mInstalling [39m[36mpowerbiclient[39m[39m ([39m[39;1m3.1.1[39;22m[39m)[39m: [34mPending...[39m
-    [1A[0J  [34;1m•[39;22m [39mInstalling [39m[36mpowerbiclient[39m[39m ([39m[39;1m3.1.1[39;22m[39m)[39m: [34mInstalling...[39m
-    [1A[0J  [32;1m•[39;22m [39mInstalling [39m[36mpowerbiclient[39m[39m ([39m[32m3.1.1[39m[39m)[39m
-    
-    [34mWriting lock file[39m
-
-
 ## Passo 2: Carregando as Bibliotecas Necessárias
 
 Depois de instalar a biblioteca Power BI, importe as bibliotecas necessárias no seu notebook:
@@ -518,19 +470,7 @@ results.dataframe
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -925,19 +865,7 @@ display(df)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1263,19 +1191,7 @@ display(df)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1386,19 +1302,7 @@ for dax_query in dax_queries:
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1471,19 +1375,7 @@ for dax_query in dax_queries:
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1556,19 +1448,7 @@ for dax_query in dax_queries:
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1641,19 +1521,7 @@ for dax_query in dax_queries:
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1726,19 +1594,7 @@ for dax_query in dax_queries:
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1811,19 +1667,7 @@ for dax_query in dax_queries:
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1896,19 +1740,7 @@ for dax_query in dax_queries:
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1928,19 +1760,7 @@ for dax_query in dax_queries:
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1960,19 +1780,7 @@ for dax_query in dax_queries:
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1992,19 +1800,7 @@ for dax_query in dax_queries:
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2210,19 +2006,7 @@ kpi
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2321,19 +2105,7 @@ display(df)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2609,19 +2381,7 @@ display(df)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
